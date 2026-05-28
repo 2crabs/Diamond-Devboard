@@ -2,13 +2,12 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 51554d86-3160-4de4-a4e2-8eed6fc65613)
+	(uuid "8fb45c0b-73db-453a-978e-20e0afc99d80")
 	(paper "A4")
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "3")
 		)
 	)
-	(embedded_fonts no)
 )
