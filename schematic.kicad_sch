@@ -368,6 +368,56 @@
 				(justify left top)
 			)
 		)
+		(pin "DM" input
+			(at 127 87.63 180)
+			(uuid "2cd0641a-d98d-4b77-aad0-7681b7f26b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP" input
+			(at 127 83.82 180)
+			(uuid "6f149062-6de8-457e-8d58-686fe9f702fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODE" input
+			(at 127 78.74 180)
+			(uuid "7d899cd0-78fa-4b2d-b577-8e926580fbe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 127 74.93 180)
+			(uuid "4384de1a-027a-4dd6-8378-09e474eda87c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 127 71.12 180)
+			(uuid "b379071f-0f08-4cfe-ac94-95195d2bdfc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Diamond"
 				(path "/6e642b55-6bd6-454f-9b21-c9b552717132"
