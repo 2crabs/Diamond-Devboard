@@ -421,12 +421,12 @@
         "uuid": "47593fa5-1fbc-49d2-a5e1-379ec54f9027"
       },
       {
-        "filename": "diamond.kicad_sch",
-        "name": "Contents",
-        "uuid": "b23a3544-8184-4341-a4a4-ec8f6e3dd597"
+        "filename": "schematic.kicad_sch",
+        "name": "Schematic",
+        "uuid": "6e642b55-6bd6-454f-9b21-c9b552717132"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-7,L1,D1-2,#PWR1-14,C1-11,J1-2,R1-4,SW1",
     "variants": []
   },
   "sheets": [
@@ -439,8 +439,20 @@
       "Block"
     ],
     [
-      "b23a3544-8184-4341-a4a4-ec8f6e3dd597",
-      "Contents"
+      "6e642b55-6bd6-454f-9b21-c9b552717132",
+      "Schematic"
+    ],
+    [
+      "5f7d2784-3e45-43b8-a782-6de29a8d5c6a",
+      "Power"
+    ],
+    [
+      "4ebedf00-e64f-4363-9b14-68ae8fa5db72",
+      "USB C"
+    ],
+    [
+      "76c15055-b5dc-41ce-bb30-d464999f4b87",
+      "MCU"
     ]
   ],
   "text_variables": {},

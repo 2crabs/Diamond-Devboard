@@ -1,0 +1,384 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "59f421db-c094-4234-ac73-a7ed2f24a7b9")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c416a7-23c1-4b1e-b801-f40f87e89835")
+	)
+	(wire
+		(pts
+			(xy 137.16 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2927439b-00e6-41e3-9aae-54bd34898619")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cd034e-375a-4093-88ae-ece8bd08d252")
+	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 0 1)
+			)
+		)
+		(separators
+			(rows no)
+			(cols no)
+		)
+		(column_widths 20.32 20.32 20.32)
+		(row_heights 3.81 12.7)
+		(uuid "866362fc-ba2c-4055-bbc1-6e6caf0c61f7")
+		(cells
+			(table_cell "MCU"
+				(exclude_from_sim no)
+				(at 111.76 34.29 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "92e89b25-0473-41d4-9481-ab2b5198acb2")
+			)
+			(table_cell "USB C"
+				(exclude_from_sim no)
+				(at 132.08 34.29 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "13eb3838-55da-47e7-b040-079050996fe3")
+			)
+			(table_cell "Power"
+				(exclude_from_sim no)
+				(at 152.4 34.29 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bd951fa7-cbfd-4794-a450-ab4a0d8ba424")
+			)
+			(table_cell "MCU\nEERAM\nTRANSCEIVER"
+				(exclude_from_sim no)
+				(at 111.76 38.1 0)
+				(size 20.32 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d075e27f-ce88-4f55-9713-f5abd5a45da2")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 132.08 38.1 0)
+				(size 20.32 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9e23fac9-0713-47de-933e-39ebeb905f89")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 152.4 38.1 0)
+				(size 20.32 12.7)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dfaee1a7-5216-4d6a-bb93-44e589702640")
+			)
+		)
+	)
+	(sheet
+		(at 115.57 107.95)
+		(size 21.59 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ebedf00-e64f-4363-9b14-68ae8fa5db72")
+		(property "Sheetname" "USB C"
+			(at 115.57 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C.kicad_sch"
+			(at 115.57 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DM" bidirectional
+			(at 137.16 123.19 0)
+			(uuid "21cf73a0-5599-4375-903e-3eaa7417a98e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DP" bidirectional
+			(at 137.16 120.65 0)
+			(uuid "dd1c0d42-71b9-46d5-85c7-f80110d0e365")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_SCL" input
+			(at 137.16 116.84 0)
+			(uuid "828fe5e1-9968-497b-9574-f69bb3e33408")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FTDI_SDA" bidirectional
+			(at 137.16 114.3 0)
+			(uuid "694cf819-79ce-44bd-a66c-977f9385b4b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MODE" input
+			(at 137.16 110.49 0)
+			(uuid "e28c053f-6c6a-47f3-862a-073b4e745da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 137.16 127 0)
+			(uuid "df2e8f51-d599-4dc4-9c6e-6b1d3b917b32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Diamond"
+				(path "/6e642b55-6bd6-454f-9b21-c9b552717132"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 107.95)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5f7d2784-3e45-43b8-a782-6de29a8d5c6a")
+		(property "Sheetname" "Power"
+			(at 146.05 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 146.05 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_USB" input
+			(at 146.05 114.3 180)
+			(uuid "d6639980-a7be-471a-8c09-0dda282eef5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT" input
+			(at 146.05 121.92 180)
+			(uuid "760e57ee-c703-44d4-8810-12a37e7bbeab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Diamond"
+				(path "/6e642b55-6bd6-454f-9b21-c9b552717132"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 63.5)
+		(size 29.21 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76c15055-b5dc-41ce-bb30-d464999f4b87")
+		(property "Sheetname" "MCU"
+			(at 130.81 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 130.81 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Diamond"
+				(path "/6e642b55-6bd6-454f-9b21-c9b552717132"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+)

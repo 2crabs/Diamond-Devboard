@@ -19,15 +19,15 @@
 		(uuid "08ff223e-4cc5-47f0-b259-87200a434647")
 	)
 	(rectangle
-		(start 265.43 123.19)
-		(end 254 156.21)
+		(start 254 123.19)
+		(end 265.43 156.21)
 		(stroke
 			(width -0.0001)
 			(type solid)
 		)
 		(fill
 			(type color)
-			(color 227 227 227 1)
+			(color 117 117 117 1)
 		)
 		(uuid "09cfde7b-3608-4a4d-bed3-7b68d1679cc9")
 	)
@@ -96,7 +96,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 139 147 1)
+			(color 139 243 255 1)
 		)
 		(uuid "69361fc1-416a-4379-8eae-882eb3196868")
 	)
@@ -109,7 +109,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 139 147 1)
+			(color 178 255 139 1)
 		)
 		(uuid "803676bd-4fa6-46f3-a0a2-e64a2e66a478")
 	)

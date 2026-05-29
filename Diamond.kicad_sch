@@ -5,9 +5,20 @@
 	(uuid "8fb45c0b-73db-453a-978e-20e0afc99d80")
 	(paper "A4")
 	(lib_symbols)
+	(text "Diamond"
+		(exclude_from_sim no)
+		(at 140.97 27.432 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "62f52676-ce2f-4fc7-a4a1-c9ef812d78b6")
+	)
 	(sheet_instances
 		(path "/"
-			(page "3")
+			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
