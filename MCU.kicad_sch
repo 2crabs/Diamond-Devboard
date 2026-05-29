@@ -1682,9 +1682,64 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "DM"
+		(shape input)
+		(at 20.32 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26def2f9-7d70-4c05-b253-04708362d8c2")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 20.32 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b492c7e-5018-4d27-b12c-ad871ec4d2f7")
+	)
+	(hierarchical_label "DP"
+		(shape input)
+		(at 20.32 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a7283fc-e98d-4197-9045-0d65e87bf526")
+	)
+	(hierarchical_label "MODE"
+		(shape input)
+		(at 20.32 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2d55ad1-72b3-432a-a45d-944c02274872")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 20.32 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef187b6e-8b40-4db9-9743-6a95807dbc5f")
+	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
-		(at 72.39 139.7 0)
+		(at 229.87 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1695,7 +1750,7 @@
 		(fields_autoplaced yes)
 		(uuid "32423a9b-2391-432b-becf-b7ac0663c58e")
 		(property "Reference" "J2"
-			(at 73.025 120.65 0)
+			(at 230.505 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1705,7 +1760,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card"
-			(at 73.025 123.19 0)
+			(at 230.505 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1715,7 +1770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 132.08 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1726,7 +1781,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
-			(at 72.39 139.7 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1792,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
-			(at 72.39 139.7 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H5:STM32H503KBUx")
-		(at 146.05 90.17 0)
+		(at 66.04 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1796,7 +1851,7 @@
 		(fields_autoplaced yes)
 		(uuid "3263ef90-662c-431a-bbe8-ccec3e31be30")
 		(property "Reference" "U3"
-			(at 148.1933 118.11 0)
+			(at 68.1833 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1807,7 +1862,7 @@
 			)
 		)
 		(property "Value" "STM32H503KBUx"
-			(at 148.1933 120.65 0)
+			(at 68.1833 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1818,7 +1873,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 125.73 115.57 0)
+			(at 45.72 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +1885,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h503kb.pdf"
-			(at 146.05 90.17 0)
+			(at 66.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1896,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 128KB flash, 32KB RAM, 250 MHz, 26 GPIO, UFQFPN32"
-			(at 146.05 90.17 0)
+			(at 66.04 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

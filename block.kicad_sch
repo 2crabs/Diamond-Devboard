@@ -31,6 +31,20 @@
 		)
 		(uuid "09cfde7b-3608-4a4d-bed3-7b68d1679cc9")
 	)
+	(circle
+		(center 168.91 99.06)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid "1cba7b9a-498c-4936-b65f-61e186fb93f5")
+	)
 	(rectangle
 		(start 194.31 86.36)
 		(end 218.44 109.22)
@@ -127,6 +141,20 @@
 		)
 		(uuid "88133123-9508-45e5-9d1a-eb6b0725b15f")
 	)
+	(circle
+		(center 168.91 105.41)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid "94392050-1eb8-4e3c-9a98-4f3832624c48")
+	)
 	(rectangle
 		(start 175.26 76.2)
 		(end 182.88 127)
@@ -140,6 +168,20 @@
 			(color 227 227 227 1)
 		)
 		(uuid "a048cf80-0034-4425-ab73-2ef6f7913450")
+	)
+	(circle
+		(center 168.91 111.76)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid "b257e828-e480-47a4-bd7c-089adbf6cfb9")
 	)
 	(rectangle
 		(start 265.43 99.06)

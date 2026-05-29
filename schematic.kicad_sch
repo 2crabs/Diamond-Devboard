@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 142.24 127) (xy 142.24 114.3)
+			(xy 139.7 125.73) (xy 139.7 114.3)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 142.24 127)
+			(xy 132.08 125.73) (xy 139.7 125.73)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 146.05 114.3)
+			(xy 139.7 114.3) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -105,7 +105,7 @@
 				)
 				(uuid "bd951fa7-cbfd-4794-a450-ab4a0d8ba424")
 			)
-			(table_cell "MCU\nEERAM\nTRANSCEIVER"
+			(table_cell "MCU\nEERAM\nTRANSCEIVER\nANALOG SWITCHES"
 				(exclude_from_sim no)
 				(at 111.76 38.1 0)
 				(size 20.32 12.7)
@@ -122,7 +122,7 @@
 				)
 				(uuid "d075e27f-ce88-4f55-9713-f5abd5a45da2")
 			)
-			(table_cell ""
+			(table_cell "USB SWITCH\nFTDI CHIP\nCONNECTOR"
 				(exclude_from_sim no)
 				(at 132.08 38.1 0)
 				(size 20.32 12.7)
@@ -139,7 +139,7 @@
 				)
 				(uuid "9e23fac9-0713-47de-933e-39ebeb905f89")
 			)
-			(table_cell ""
+			(table_cell "BUCK\nLDO\nPOWER SWITCH"
 				(exclude_from_sim no)
 				(at 152.4 38.1 0)
 				(size 20.32 12.7)
@@ -159,8 +159,8 @@
 		)
 	)
 	(sheet
-		(at 115.57 107.95)
-		(size 21.59 21.59)
+		(at 110.49 109.22)
+		(size 21.59 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -175,7 +175,7 @@
 		)
 		(uuid "4ebedf00-e64f-4363-9b14-68ae8fa5db72")
 		(property "Sheetname" "USB C"
-			(at 115.57 107.2384 0)
+			(at 110.49 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,7 +186,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-C.kicad_sch"
-			(at 115.57 130.1246 0)
+			(at 110.49 130.1246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -197,7 +197,7 @@
 			)
 		)
 		(pin "DM" bidirectional
-			(at 137.16 123.19 0)
+			(at 132.08 121.92 0)
 			(uuid "21cf73a0-5599-4375-903e-3eaa7417a98e")
 			(effects
 				(font
@@ -207,7 +207,7 @@
 			)
 		)
 		(pin "DP" bidirectional
-			(at 137.16 120.65 0)
+			(at 132.08 119.38 0)
 			(uuid "dd1c0d42-71b9-46d5-85c7-f80110d0e365")
 			(effects
 				(font
@@ -217,7 +217,7 @@
 			)
 		)
 		(pin "FTDI_SCL" input
-			(at 137.16 116.84 0)
+			(at 132.08 115.57 0)
 			(uuid "828fe5e1-9968-497b-9574-f69bb3e33408")
 			(effects
 				(font
@@ -227,7 +227,7 @@
 			)
 		)
 		(pin "FTDI_SDA" bidirectional
-			(at 137.16 114.3 0)
+			(at 132.08 113.03 0)
 			(uuid "694cf819-79ce-44bd-a66c-977f9385b4b5")
 			(effects
 				(font
@@ -236,18 +236,8 @@
 				(justify right)
 			)
 		)
-		(pin "MODE" input
-			(at 137.16 110.49 0)
-			(uuid "e28c053f-6c6a-47f3-862a-073b4e745da3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBUS" output
-			(at 137.16 127 0)
+			(at 132.08 125.73 0)
 			(uuid "df2e8f51-d599-4dc4-9c6e-6b1d3b917b32")
 			(effects
 				(font
@@ -265,8 +255,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 107.95)
-		(size 22.86 21.59)
+		(at 146.05 109.22)
+		(size 22.86 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -281,7 +271,7 @@
 		)
 		(uuid "5f7d2784-3e45-43b8-a782-6de29a8d5c6a")
 		(property "Sheetname" "Power"
-			(at 146.05 107.2384 0)
+			(at 146.05 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -313,8 +303,18 @@
 			)
 		)
 		(pin "BATT" input
-			(at 146.05 121.92 180)
+			(at 146.05 124.46 180)
 			(uuid "760e57ee-c703-44d4-8810-12a37e7bbeab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_SWD" input
+			(at 146.05 119.38 180)
+			(uuid "0fcfeffd-e614-4d24-b6e5-847b58963b53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +331,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 63.5)
+		(at 127 66.04)
 		(size 29.21 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -347,7 +347,7 @@
 		)
 		(uuid "76c15055-b5dc-41ce-bb30-d464999f4b87")
 		(property "Sheetname" "MCU"
-			(at 130.81 62.7884 0)
+			(at 127 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -358,7 +358,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 130.81 92.0246 0)
+			(at 127 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
